@@ -38,3 +38,5 @@ Cargo.lock
 !.vscode/*.code-snippets
 
 # End of https://www.toptal.com/developers/gitignore/api/rust,visualstudiocode
+
+input/*
