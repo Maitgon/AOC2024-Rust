@@ -1,5 +1,6 @@
 use crate::{Solution, SolutionPair};
 use std::{fs::read_to_string, cmp::Ordering};
+use crate::etc::utils::abs_diff;
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -72,12 +73,4 @@ fn parse(input: String) -> Input {
     }
 
     Input {list1, list2}
-}
-
-fn abs_diff(a: i32, b: i32) -> i32 {
-    if a >= b {
-        a - b
-    } else {
-        b - a
-    }
 }

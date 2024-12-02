@@ -1,5 +1,6 @@
 use crate::{Solution, SolutionPair};
 use std::fs::read_to_string;
+use crate::etc::utils::abs_diff;
 use nom::{
     IResult,
     character::complete::{digit1, one_of},
@@ -84,14 +85,6 @@ fn diff(report: &[i32]) -> bool {
     }
 
     true
-}
-
-fn abs_diff(a: i32, b: i32) -> i32 {
-    if a >= b {
-        a - b
-    } else {
-        b - a
-    }
 }
 
 // Parsing the Input
