@@ -43,7 +43,7 @@ fn part2(mut input: Input) -> i32 {
 
     for n in input.list1 {
         let mut similarity = 0;
-        while (idx < input.list2.len()) {
+        while idx < input.list2.len() {
             match n.cmp(&input.list2[idx]) {
                 Ordering::Greater => idx += 1,
                 Ordering::Equal => {
