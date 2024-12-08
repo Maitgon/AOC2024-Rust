@@ -8,7 +8,7 @@ pub fn abs_diff<T: Ord + Sub<Output = T>> (a: T, b: T) -> T {
     }
 }
 
-#[derive(Copy, Clone, Debug)]
+#[derive(Copy, Clone, Debug, Eq, PartialEq, Hash)]
 pub struct Point(pub i32, pub i32);
 
 impl Add for Point {
