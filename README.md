@@ -16,3 +16,4 @@
 | [10](https://adventofcode.com/2024/day/10) | ⭐ | ⭐ | 0.4846ms |
 | [11](https://adventofcode.com/2024/day/11) | ⭐ | ⭐ | 5.9431ms |
 | [12](https://adventofcode.com/2024/day/12) | ⭐ | ⭐ | 1.4920ms |
+| [13](https://adventofcode.com/2024/day/13) | ⭐ | ⭐ | 0.0546ms |
