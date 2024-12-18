@@ -38,3 +38,9 @@ impl SubAssign for Point {
         *self = *self - other;
     }
 }
+
+impl Point {
+    pub fn manhattan_distance(&self, other: &Point) -> i32 {
+        abs_diff(self.0, other.0) + abs_diff(self.1, other.1)
+    }
+}
