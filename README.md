@@ -24,3 +24,4 @@
 | [18](https://adventofcode.com/2024/day/18) | ⭐ | ⭐ | 610.9580ms |
 | [19](https://adventofcode.com/2024/day/19) | ⭐ | ⭐ | 1.8900ms |
 | [20](https://adventofcode.com/2024/day/20) | ⭐ | ⭐ | 29.6893ms |
+| [21](https://adventofcode.com/2024/day/21) | ⭐ | ⭐ | 1.4791ms |
